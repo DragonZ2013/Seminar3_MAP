@@ -3,7 +3,7 @@ package Main;
 import java.util.Iterator;
 import java.util.List;
 
-public class Deck implements Iterable{
+public class Deck implements Iterable<Spielkarte>{
 
     List<Spielkarte> card_deck;
 
